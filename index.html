@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pixel-art game</title>
+</head>
+<body>
+    <header>
+        <form>
+            <input type="number" name="size-grid" class="form-input" id="size-grid" placeholder="Taille de la grille" required>
+            <input type="number" name="size-pixel" class="form-input" id="size-pixel" placeholder="Taille des pixels" required>
+            <button id="submit" type="submit" class="form-input" >Valider</button>
+        </form>
+    </header>
+    <main>
+        <div id="container-pixel">
+
+        </div>
+        <div id="palette">
+            <div class="palette-color" id="color-blue"></div>
+            <div class="palette-color" id="color-yellow"></div>
+            <div class="palette-color" id="color-green"></div>
+            <div class="palette-color" id="color-red"></div>
+            <div class="palette-color" id="color-black"></div>
+            <div class="palette-color" id="color-white"></div>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright ©2021 All rights reserved | by Kévin Gaborel</p>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
